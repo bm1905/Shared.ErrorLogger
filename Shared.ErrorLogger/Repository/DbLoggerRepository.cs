@@ -18,7 +18,7 @@ namespace Shared.ErrorLogger.Repository
         public async Task LogToDatabase(Log log)
         {
             string conString = _databaseConfig.ConnectionString;
-            const string commandText = "usp_InsertToQuotesSenderLog";
+            const string commandText = "usp_LogErrors";
             await using SqlConnection sqlConnection = new(conString);
             await using SqlCommand command = new(commandText, sqlConnection);
             command.CommandType = CommandType.StoredProcedure;
