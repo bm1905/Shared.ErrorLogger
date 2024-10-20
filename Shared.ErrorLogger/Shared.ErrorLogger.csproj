@@ -4,11 +4,11 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-        <Version>1.0.0.0</Version>
+        <Version>1.0.0.1</Version>
         <Authors>Bijay Maharjan</Authors>
         <Title>Shared Error Logger. This library will log errors to table ErrorsLog.</Title>
         <Description>Shared Error Logger. This library will log errors to table ErrorsLog.</Description>
-        <PackageReleaseNotes>Initial version</PackageReleaseNotes>
+        <PackageReleaseNotes>Update version</PackageReleaseNotes>
     </PropertyGroup>
 
     <ItemGroup>
